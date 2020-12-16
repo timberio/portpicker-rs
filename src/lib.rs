@@ -1,7 +1,7 @@
+use rand::prelude::*;
 use std::net::{
     Ipv4Addr, Ipv6Addr, SocketAddrV4, SocketAddrV6, TcpListener, ToSocketAddrs, UdpSocket,
 };
-use rand::prelude::*;
 
 pub type Port = u16;
 
